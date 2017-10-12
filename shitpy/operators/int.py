@@ -19,17 +19,25 @@ class int:
         
         t = randint(2, 6)
         
-        for i in range(t):
+        if t == 1:
             print("""
                       ^
                     (___)
-                   (_____)""")
-            time.sleep(1)
+                   (_____)
+                  (_______)""")
+            print("AAAHHHHH!! FEELS SO GOOD!")
+        else:
+            for i in range(t):
+                print("""
+                        ^
+                        (___)
+                    (_____)""")
+                time.sleep(1)
+            print("Aaahhhh!! Feels so Good!")
         
         a = str(self.number)
         b = str(n.number)        
         c = a + b
-        print("Aaahhhh!! Feels so Good!")
         
         return int(c)
 
