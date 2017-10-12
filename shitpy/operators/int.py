@@ -29,9 +29,9 @@ class int:
         else:
             for i in range(t):
                 print("""
-                        ^
+                          ^
                         (___)
-                    (_____)""")
+                       (_____)""")
                 time.sleep(1)
             print("Aaahhhh!! Feels so Good!")
         
