@@ -11,21 +11,20 @@ class int:
             Why not to concatenate them? :p
         """
         print("Wait! I am Pooping...")
-        print("Initializing Pooping Sequence")
         
-        for i in range(3):
-            print(".",end=" ")
-            time.sleep(1)
-        
-        t = randint(2, 6)
+        t = randint(1, 6)
         
         if t == 1:
+            time.sleep(1)
             print("""
                       ^
                     (___)
                    (_____)
-                  (_______)""")
-            print("AAAHHHHH!! FEELS SO GOOD!")
+                  (_______)
+
+            Aahhh! AAAHHH! Its huge!""")
+            time.sleep(2)
+            print("FEELS SO GOOD!")
         else:
             for i in range(t):
                 print("""
