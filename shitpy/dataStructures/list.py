@@ -22,7 +22,7 @@ class list:
                 if count%20000==0:
                     time.sleep(0.5)
                     print(self.arr)
-                    print("Shit! This one is wrong, let me check other permutation!")
+                    print("Shit! This one is wrong, let me check another permutation!")
                 if count == 10000000:
                     print("Forget it! I can't do!")
                     return None
@@ -30,6 +30,7 @@ class list:
             return self.arr
         
         else:
+            flag = 0
             while not _is_sorted(self.arr):
                 shuffle(self.arr)
                 count+=1
@@ -37,12 +38,12 @@ class list:
                 if count%20==0:
                     time.sleep(1)
                     print(self.arr)
-                    print("Shit! This one is wrong, let me check other permutation!")
+                    print("Shit! This one is wrong, let me check another permutation!")
                     flag = 1
             if flag==1:
                 print("Huff! Finally")
             else:
-                print("This for easy, even for me!")
+                print("This is too easy, even for me!")
             return self.arr
     
     def __repr__(self):
