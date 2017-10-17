@@ -6,6 +6,9 @@ Any help in any form is most welcome!
 
 License: GNU General Public License (see the LICENSE file for details) covers all the files in shitpy repo.
 
+Join our Gitter channel:
+https://gitter.im/shitpy 
+
 <br />
 
 ## To get started:
@@ -45,6 +48,5 @@ or you can also try
 >>> a = shit.list([6,5,7,3,4,2,1])
 >>> a.shitSort()
 ```
-try diffrent combinations of list ;)
 
 Happy Pooping :)
