@@ -30,10 +30,21 @@ $ python3
 
 <br />
 
-Try out your first code with shitpy! Happy Pooping :)
+Try out your first code with shitpy!
 ```
 >>> from shitpy import int
 >>> a = int(2)
 >>> b = int(5)
 >>> a + b
 ```
+
+or you can also try
+
+```
+>>> import shitpy as shit
+>>> a = shit.list([6,5,7,3,4,2,1])
+>>> a.shitSort()
+```
+try diffrent combinations of list ;)
+
+Happy Pooping :)
