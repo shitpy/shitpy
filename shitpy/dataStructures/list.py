@@ -1,8 +1,15 @@
+from __future__ import print_function
 from random import shuffle
 import time
 
 def _is_sorted(array):
-    return all(array[i] <= array[i+1] for i in xrange(len(array)-1))
+    for i in range(len(array)-1):
+        if array[i] <= array[i+1]:
+            f=1
+        else:
+            f=0
+            break
+    return f
 
 class list:
     
@@ -34,7 +41,6 @@ class list:
             while not _is_sorted(self.arr):
                 shuffle(self.arr)
                 count+=1
-                flag = 0
                 if count%20==0:
                     time.sleep(1)
                     print(self.arr)

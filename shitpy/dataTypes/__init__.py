@@ -1,1 +1,3 @@
-from int import *
+from .int import *
+
+__all__ = ["int"]
