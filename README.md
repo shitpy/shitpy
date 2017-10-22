@@ -1,6 +1,6 @@
 # ShitPy
 
-A really shitty Python Module.
+A really really shitty Python Module.
 
 Any help in any form is most welcome! 
 
@@ -33,7 +33,7 @@ $ python3
 
 <br />
 
-Try out your first code with shitpy!
+Try out your first piece of code with shitpy!
 ```
 >>> from shitpy import int
 >>> a = int(2)
@@ -41,7 +41,7 @@ Try out your first code with shitpy!
 >>> a + b
 ```
 
-or you can also try
+or you could also try
 
 ```
 >>> import shitpy as shit
