@@ -2,6 +2,19 @@ from random import random
 import time
 
 class str:
+    '''
+    >>> from shitpy import str
+    >>> str(4) + str('abc')
+    Life is not always what we want it to be (o_o)
+    Wtf is this! I can't add it!
+    But wait! I'll give you some random shit!
+    12.9651505349 #some random number
+
+    >>> str(45) + str(78)
+    Life is not always what we want it to be (o_o)
+    Computing some Shit!
+    123
+    '''
     def __init__(self, s):
         self.string = s
 
