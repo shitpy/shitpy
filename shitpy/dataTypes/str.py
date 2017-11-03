@@ -11,11 +11,11 @@ class str:
         a = self.string
         b = x.string
         try:
-            print("Computing some Shit!")
-            time.sleep(2)
             a = int(a)
             b = int(b)
+            print("Computing some Shit!")
             c = a + b
+            time.sleep(2)
             return str(c)
         except:
             print("Wtf is this! I can't add it!")
