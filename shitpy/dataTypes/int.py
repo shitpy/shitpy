@@ -11,10 +11,10 @@ class int:
             Creates a pile of shit levels high.
         '''
 
-        turd = levels * ' ' + '^'
+        turd = (levels * ' ' + (' '*10) + '^')
 
         for i in range(2, levels + 1):
-            turd += ('\n' + (levels - i)* ' ' + '(' + (2*i - 1) *'_' + ')')
+            turd += '\n' + ((levels - i)*' ') + (' '*10) + '(' + (2*i - 1) *'_' + ')'
 
         return turd
 
@@ -30,7 +30,7 @@ class int:
             time.sleep(1)
             print(self.make_turd(4) + 
 
-            """Aahhh! AAAHHH! Its huge!""")
+            """\nAahhh! AAAHHH! Its huge!""")
             time.sleep(2)
             print("FEELS SO GOOD!")
         else:
@@ -56,7 +56,6 @@ class int:
             time.sleep(1)
             print(self.make_turd(5) + 
                 """
-
             Aahhh! AAAHHH! Its huge!
                  Its bigger!
                  Its badder!
