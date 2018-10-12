@@ -49,4 +49,4 @@ or you could also try
 >>> a.shitSort()
 ```
 
-Happy Pooping :)
+Happy Pooping :)  💩💩💩
