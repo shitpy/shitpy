@@ -47,7 +47,6 @@ try this:
 >>> from shitpy import str
 >>> a = str(4)
 >>> a + a
- see output for yourself ;)
 ```
 
 ```
