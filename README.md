@@ -64,4 +64,4 @@ or you could also sort with shitpy
 >>> a.shitSort()
 ```
 
-Happy Pooping :)
+Happy Pooping :)  💩💩💩
