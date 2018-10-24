@@ -2,12 +2,12 @@
 
 A really really shitty Python Module.
 
-Any help in any form is most welcome! 
+Any help in any form is most welcome!
 
 License: GNU General Public License (see the LICENSE file for details) covers all the files in shitpy repo.
 
 Join our Gitter channel:
-https://gitter.im/shitpy 
+https://gitter.im/shitpy
 
 <br />
 
@@ -29,7 +29,7 @@ $ python2
 for python version: 3
 ```sh
 $ python3
-``` 
+```
 
 <br />
 
@@ -41,7 +41,22 @@ Try out your first piece of code with shitpy!
 >>> a + b
 ```
 
-or you could also try
+try this:
+
+```
+>>> from shitpy import str
+>>> a = str(4)
+>>> a + a
+ see output for yourself ;)
+```
+
+```
+>>> from shitpy import str
+>>> a = str(shit)
+>>> a + a
+```
+
+or you could also sort with shitpy
 
 ```
 >>> import shitpy as shit
